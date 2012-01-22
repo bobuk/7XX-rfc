@@ -1,45 +1,45 @@
-# RFC for the 7XX Range of HTTP Status codes - Developer Errors
+# RFC для диапазона статусов HTTP 7XX - Ошибки Разработчика
 
-At Railscamp X it became clear there is a gap in the current HTTP specification.
+На Railscamp X стало понятно, что есть громадная дыра в текущей спецификации HTTP.
 
-There are many ways for a developer to screw up their implementation, but no code to share the nature of the error with the end user.
+У разработчика есть множество путей облажаться в реализации, но нет HTTP кодов, позволяющих поделиться сутью ошибки с конечным пользователем.
 
-We humbly suggest the following status codes are included in the HTTP spec in the 7XX range.
+Мы скромно предлагаем следующие коды статусов к включению в спецификацию HTTP в диапазоне 7XX.
 
-  * 701 - Meh
-  * 711 - Closed
-  * 72X - Edge Cases
-    - 720 - Unpossible
-    - 721 - Known Unknowns
-    - 722 - Unknown Unknowns
-    - 723 - Tricky
-    - 724 - This line should be unreachable
-    - 725 - It works on my machine
-  * 73X - Fucking
-    - 731 - Fucking Rubygems
-    - 732 - Fucking Unicode
-    - 733 - Fucking Deadlocks
-    - 734 - Fucking Deferreds
-    - 735 - Fucking IE
-    - 736 - Fucking Race Conditions
-    - 737 - FuckThreadsing
-  * 74X - Meme Driven
-    - 741 - Compiling
-    - 742 - A kitten dies
-  * 76X - Substance-Affected Developer
-    - 761 - Hungover
-    - 762 - Stoned
-    - 763 - Over-Caffienated
-    - 764 - Under-Caffienated
-    - 765 - Railscamp
-  * 77X - Predictable Problems
-    - 771 - Cached for too long
-    - 772 - Not cached long enough
-    - 773 - Not cached at all
-    - 777 - Coincidence
-    - 778 - Off By One Error
-    - 779 - Off By Too Many To Count Error
-  * 78X - Somebody Else's Problem
-    - 781 — Operations
-    - 782 - QA
-    - 783 - It was a customer request, honestly
+  * 701 - Мнэээ
+  * 711 - Закрыто
+  * 72X - Крайние случаи
+    - 720 - Невозможно
+    - 721 - Известное Неизвестное
+    - 722 - Неизвестное Неизвестное
+    - 723 - Что-то хитрое
+    - 724 - Эта строка не должна была выполниться
+    - 725 - А на моей машине работает
+  * 73X - Блядство
+    - 731 - Блядский Rubygems
+    - 732 - Блядский юникод
+    - 733 - Блядский дедлок
+    - 734 - Блядский дефферед
+    - 735 - Блядский IE
+    - 736 - Блядский рейскондишн
+    - 737 - БлядТредыские
+  * 74X - Про мемы
+    - 741 - Компилируется
+    - 742 - Котенок умер
+  * 76X - Разработчик под препаратами
+    - 761 - Похмелье
+    - 762 - Обкурен
+    - 763 - Перекофеинился
+    - 764 - Недокофеинился
+    - 765 - Конференция
+  * 77X - Предсказуемые проблемы
+    - 771 - Перезакеширован
+    - 772 - Недозакеширован
+    - 773 - Не закеширован
+    - 777 - Случайность
+    - 778 - Из-за одной ошибки
+    - 779 - Из-за очень многих ошибок
+  * 78X - Чужие проблемы
+    - 781 — Финансисты
+    - 782 - Тестировщики
+    - 783 - Так попросил заказчик, честное слово!
